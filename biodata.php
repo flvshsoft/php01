@@ -10,7 +10,7 @@ $alamat = 'Cipta Karya';
 
 <h1>Biodata</h1>
 <div>
-    <h4>Nama : <?php echo $nama; ?></h4>
+    <h4 style="color:red">Nama : <?php echo $nama; ?></h4>
 </div>
 <div>
     <h4>NIM : <?php echo $nim; ?></h4>
@@ -24,3 +24,8 @@ $alamat = 'Cipta Karya';
 <div>
     <h4>Alamat : <?php echo $alamat; ?></h4>
 </div>
+
+
+<?php 
+echo "<h4>Nama : ".$nama."</h4>";
+?>
