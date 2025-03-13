@@ -1,0 +1,20 @@
+body {
+  padding: 0px;
+}
+
+.kontainer {
+  display: flex;
+  background: yellow;
+  margin: 0px;
+}
+
+.sidebar {
+  background: red;
+  width: 20%;
+  min-height: 100vh;
+}
+
+.main {
+  background: green;
+  width: 80%;
+}
