@@ -76,41 +76,25 @@
                 <div class="d-flex mb-4" style="justify-content:space-between;">
                     <!-- breadcrumb -->
                     <div style="margin:0px;padding:0px;">
-                        <h1 style="margin-top: 0px;margin-bottom:0px;">Data Guru</h1>
-                        <h4 style="margin: 0px;">Dashboard / Data Inventaris</h4>
-                    </div>
-                    <!-- tambah -->
-                    <div style="display: block;">
-                        <a href="data_guru_tambah.php" class="btn btn-success">Tambah</a>
+                        <h1 style="margin-top: 0px;margin-bottom:0px;">Tambah Guru</h1>
+                        <h4 style="margin: 0px;">Dashboard / Data Guru / Tambah Guru</h4>
                     </div>
                 </div>
                 <!-- #2 -->
-                <div class="bg-white">
-                    <h4>Tabel</h4>
-                    <table style="width:100%" border="1" class="table table-bordered table-striped">
-                        <thead class="table-primary">
-                            <tr>
-                                <th>No</th>
-                                <th>Nama Barang</th>
-                                <th>Jumlah</th>
-                                <th>Kondisi</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Komputer</td>
-                                <td>10 unit</td>
-                                <td>Baik</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Komputer</td>
-                                <td>10 unit</td>
-                                <td>Baik</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="bg-white row">
+                    <form class="p-4">
+                        <div class="row">
+                            <label for="">Nama Guru</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="row">
+                            <label for="">NIP</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="row mt-4">
+                            <input type="submit" value="Simpan" class="btn btn-success">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
